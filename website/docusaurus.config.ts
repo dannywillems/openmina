@@ -103,7 +103,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'nodeRunnersSidebar',
           position: 'left',
-          label: 'Node Runners',
+          label: 'Node Operators',
         },
         {
           type: 'docSidebar',
@@ -135,8 +135,8 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Node Runners',
-              to: '/docs/node-runners/getting-started',
+              label: 'Node Operators',
+              to: '/docs/node-operators/getting-started',
             },
             {
               label: 'Developers',

@@ -4,7 +4,7 @@ title: Getting Started
 description:
   Welcome to the Rust node - learn how to get started with running your own Mina
   Protocol node
-slug: /node-runners/getting-started
+slug: /node-operators/getting-started
 ---
 
 # Getting Started with the Rust Node

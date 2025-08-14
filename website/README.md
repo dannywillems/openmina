@@ -38,7 +38,7 @@ cd website && npm run serve
 
 The documentation is organized around three main user personas:
 
-- **Node Runners** (`docs/node-runners/`) - Installation, configuration, and
+- **Node Operators** (`docs/node-operators/`) - Installation, configuration, and
   operation guides
 - **Developers** (`docs/developers/`) - Architecture, codebase understanding,
   and contribution guides
@@ -56,7 +56,7 @@ The documentation is organized around three main user personas:
 
 ### New Pages
 
-1. Create markdown files in the appropriate directory (`docs/node-runners/`,
+1. Create markdown files in the appropriate directory (`docs/node-operators/`,
    `docs/developers/`, or `docs/researchers/`)
 2. Add frontmatter with title, description, and sidebar position:
    ```yaml

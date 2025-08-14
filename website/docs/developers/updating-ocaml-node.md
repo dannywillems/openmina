@@ -91,4 +91,4 @@ Following the pattern from commit
 - [Mina Protocol Releases](https://github.com/MinaProtocol/mina/releases/)
 - [Rust Node Architecture Documentation](./architecture.md)
 - [Example PR #1236](https://github.com/o1-labs/openmina/pull/1236)
-- [Node Runners Guide](../node-runners/getting-started.md)
+- [Node Operators Guide](../node-operators/getting-started.md)

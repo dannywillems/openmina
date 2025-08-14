@@ -4,7 +4,7 @@ title: Network Configuration
 description:
   Learn about the Rust node's network configuration and how to contribute to the
   default peer list
-slug: /node-runners/network-configuration
+slug: /node-operators/network-configuration
 ---
 
 # Network Configuration

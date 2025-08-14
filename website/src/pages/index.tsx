@@ -17,9 +17,9 @@ interface QuickNavItem {
 
 const quickNavItems: QuickNavItem[] = [
   {
-    title: 'Node Runners',
+    title: 'Node Operators',
     description: 'Run and maintain Rust node instances',
-    to: '/docs/node-runners/getting-started',
+    to: '/docs/node-operators/getting-started',
     icon: (
       <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
         <path d="M12 2L2 7V10C2 16 6 20.9 12 22C18 20.9 22 16 22 10V7L12 2Z"/>
@@ -102,7 +102,7 @@ function HomepageHeader() {
             Rust implementation of the Mina Protocol — lightweight blockchain using zero-knowledge proofs.
           </p>
           <div className={styles.heroButtons}>
-            <Link className={styles.btnPrimary} to="/docs/node-runners/getting-started">
+            <Link className={styles.btnPrimary} to="/docs/node-operators/getting-started">
               Get Started
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
                 <path d="M8.59 16.59L13.17 12L8.59 7.41L10 6L16 12L10 18L8.59 16.59Z"/>
