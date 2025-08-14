@@ -66,6 +66,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   ([#1269](https://github.com/o1-labs/openmina/pull/1269/)).
 - **CI**: set fail-fast to false to prevent cancellation of other jobs
   ([#1305](https://github.com/o1-labs/openmina/pull/1305))
+- **Website**: (temporary) new design, for a first release
+  ([#1312](https://github.com/o1-labs/openmina/pull/1312)).
 
 ### Fixed
 
