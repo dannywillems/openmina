@@ -17,7 +17,7 @@ const sidebars: SidebarsConfig = {
   nodeRunnersSidebar: [
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'Introduction',
       items: [
         'node-runners/getting-started',
         'node-runners/docker-installation',
@@ -61,7 +61,7 @@ const sidebars: SidebarsConfig = {
   developersSidebar: [
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'Introduction',
       items: [
         'developers/getting-started',
         'developers/updating-ocaml-node',

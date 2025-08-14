@@ -68,7 +68,13 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/openmina-social-card.svg',
+    // Default to dark mode
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
 
     // SEO improvements and metadata
     metadata: [
@@ -80,14 +86,14 @@ const config: Config = {
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: 'OpenMina Documentation'},
       {property: 'og:description', content: 'OpenMina is a Rust implementation of the Mina Protocol - a lightweight blockchain using zero-knowledge proofs.'},
-      {property: 'og:image', content: 'https://o1-labs.github.io/openmina/img/docusaurus-social-card.jpg'},
+      {property: 'og:image', content: 'https://o1-labs.github.io/openmina/img/openmina-social-card.svg'},
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:title', content: 'OpenMina Documentation'},
       {property: 'twitter:description', content: 'OpenMina is a Rust implementation of the Mina Protocol - a lightweight blockchain using zero-knowledge proofs.'},
-      {property: 'twitter:image', content: 'https://o1-labs.github.io/openmina/img/docusaurus-social-card.jpg'},
+      {property: 'twitter:image', content: 'https://o1-labs.github.io/openmina/img/openmina-social-card.svg'},
     ],
     navbar: {
-      title: 'OpenMina',
+      title: '',
       logo: {
         alt: 'OpenMina Logo',
         src: 'img/logo.svg',
@@ -104,12 +110,6 @@ const config: Config = {
           sidebarId: 'developersSidebar',
           position: 'left',
           label: 'Developers',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'researchersSidebar',
-          position: 'left',
-          label: 'Researchers',
         },
         {
           href: 'https://o1-labs.github.io/openmina/api-docs/',
@@ -141,10 +141,6 @@ const config: Config = {
             {
               label: 'Developers',
               to: '/docs/developers/architecture',
-            },
-            {
-              label: 'Researchers',
-              to: '/docs/researchers/protocol',
             },
             {
               label: 'API Documentation',
@@ -207,7 +203,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} o1Labs. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} o1Labs.`,
     },
     prism: {
       theme: prismThemes.github,
