@@ -99,7 +99,7 @@ function HomepageHeader() {
             {siteConfig.title}
           </Heading>
           <p className={styles.heroSubtitle}>
-            Rust implementation of the Mina Protocol — lightweight blockchain using zero-knowledge proofs.
+            Rust implementation of the Mina Protocol — lightweight blockchain using zero knowledge proofs.
           </p>
           <div className={styles.heroButtons}>
             <Link className={styles.btnPrimary} to="/docs/node-operators/getting-started">

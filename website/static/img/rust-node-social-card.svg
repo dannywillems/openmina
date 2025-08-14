@@ -27,7 +27,7 @@
     <text x="0" y="0" font-family="Inter, sans-serif" font-size="28" font-weight="400" fill="#a0a0a0" text-anchor="middle">Rust implementation of the Mina Protocol (originally OCaml)</text>
     
     <!-- Subtitle continued -->
-    <text x="0" y="40" font-family="Inter, sans-serif" font-size="28" font-weight="400" fill="#a0a0a0" text-anchor="middle">Lightweight blockchain using zero-knowledge proofs</text>
+    <text x="0" y="40" font-family="Inter, sans-serif" font-size="28" font-weight="400" fill="#a0a0a0" text-anchor="middle">Lightweight blockchain using zero knowledge proofs</text>
     
     <!-- Gradient accent -->
     <rect x="-150" y="80" width="300" height="4" fill="url(#grad)" rx="2"/>

@@ -10,7 +10,7 @@ slug: /node-operators/getting-started
 # Getting Started with Mina Rust Node
 
 Welcome to the Mina Rust Node, a Rust implementation of the Mina Protocol - a
-lightweight blockchain using zero-knowledge proofs.
+lightweight blockchain using zero knowledge proofs.
 
 ## What is the Mina Rust Node?
 

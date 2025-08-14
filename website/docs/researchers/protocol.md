@@ -10,7 +10,7 @@ slug: /researchers/protocol
 # Mina Protocol Overview
 
 The Mina Rust Node implements the Mina Protocol, a lightweight blockchain that
-uses zero-knowledge proofs to maintain a constant-sized blockchain regardless of
+uses zero knowledge proofs to maintain a constant-sized blockchain regardless of
 transaction history.
 
 ## Key Innovation: Succinct Blockchain
@@ -86,7 +86,7 @@ Active areas of protocol research and development:
 
 - **Proof System Improvements**: Faster proof generation and verification
 - **Scalability**: Increasing transaction throughput
-- **Privacy**: Enhanced privacy features using zero-knowledge techniques
+- **Privacy**: Enhanced privacy features using zero knowledge techniques
 - **Interoperability**: Cross-chain communication protocols
 
 ## Further Reading
