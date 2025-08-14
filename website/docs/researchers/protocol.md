@@ -2,14 +2,15 @@
 sidebar_position: 1
 title: Protocol Overview
 description:
-  Understanding the Mina Protocol and the Rust node's implementation approach
+  Understanding the Mina Protocol and the Mina Rust Node's implementation
+  approach
 slug: /researchers/protocol
 ---
 
 # Mina Protocol Overview
 
-The Rust node implements the Mina Protocol, a lightweight blockchain that uses
-zero-knowledge proofs to maintain a constant-sized blockchain regardless of
+The Mina Rust Node implements the Mina Protocol, a lightweight blockchain that
+uses zero-knowledge proofs to maintain a constant-sized blockchain regardless of
 transaction history.
 
 ## Key Innovation: Succinct Blockchain
@@ -54,11 +55,11 @@ Mina uses an account-based model rather than UTXO:
   proofs
 - **State Transitions**: Updates to account state require valid proofs
 
-## Rust Node Implementation
+## Mina Rust Node Implementation
 
 ### Verification Architecture
 
-The Rust node implements a multi-layered verification system:
+The Mina Rust Node implements a multi-layered verification system:
 
 1. **Proof Verification**: Validates zk-SNARK proofs using the `snark` module
 2. **Transaction Validation**: Ensures transactions follow protocol rules

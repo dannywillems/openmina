@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Docker Installation
 description:
-  Install the Rust node using Docker for easy deployment and management
+  Install the Mina Rust Node using Docker for easy deployment and management
 ---
 
 # Docker Installation Guide

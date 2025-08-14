@@ -275,11 +275,12 @@ readable and valid.
 
 ## Integration with the Rust Node
 
-The LibP2P implementation in the Rust node serves as a compatibility layer,
+The LibP2P implementation in the Mina Rust Node serves as a compatibility layer,
 enabling communication between:
 
-- **OCaml Mina nodes** ↔ **Rust nodes** (via LibP2P)
-- **Rust nodes** ↔ **Rust nodes** (preferably via WebRTC)
+- **OCaml Mina nodes** ↔ **Mina Rust Node instances** (via LibP2P)
+- **Mina Rust Node instances** ↔ **Mina Rust Node instances** (preferably via
+  WebRTC)
 
 This dual-transport approach allows for gradual migration from the existing
 OCaml implementation to the new Rust implementation while maintaining network

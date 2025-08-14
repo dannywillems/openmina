@@ -2,19 +2,19 @@
 sidebar_position: 7
 title: Network Configuration
 description:
-  Learn about the Rust node's network configuration and how to contribute to the
-  default peer list
+  Learn about Mina Rust Node's network configuration and how to contribute to
+  the default peer list
 slug: /node-operators/network-configuration
 ---
 
 # Network Configuration
 
-This guide explains the Rust node's network configuration and how you can
+This guide explains the Mina Rust Node's network configuration and how you can
 contribute to improving the network's connectivity.
 
 ## Default Peers
 
-The Rust node includes hardcoded default peers for both mainnet and devnet
+The Mina Rust Node includes hardcoded default peers for both mainnet and devnet
 networks to ensure reliable initial connectivity. These peers are defined in the
 [`devnet::default_peers()`](https://o1-labs.github.io/openmina/api-docs/openmina_core/network/devnet/fn.default_peers.html)
 and
@@ -129,7 +129,7 @@ When running a seed node:
 
 ### Community Resources
 
-- **GitHub Discussions**: Join discussions on the Rust node repository
+- **GitHub Discussions**: Join discussions on the Mina Rust Node repository
 - **Discord**: Connect with the community on the
   [Mina Protocol Discord](https://discord.com/channels/484437221055922177/1290662938734231552)
 - **Forums**: Participate in
@@ -139,7 +139,7 @@ When running a seed node:
 
 ### Custom Peer Lists
 
-While the Rust node uses default peers for initial connectivity, you can
+While the Mina Rust Node uses default peers for initial connectivity, you can
 configure your node to use custom peer lists using command-line options:
 
 #### Adding Individual Peers
@@ -195,7 +195,7 @@ on custom peer lists.
 
 Monitor your node's network connectivity through:
 
-- The Rust node's built-in dashboard
+- The Mina Rust Node's built-in dashboard
 - Peer connection metrics
 - Network synchronization status
 

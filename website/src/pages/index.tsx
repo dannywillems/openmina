@@ -18,7 +18,7 @@ interface QuickNavItem {
 const quickNavItems: QuickNavItem[] = [
   {
     title: 'Node Operators',
-    description: 'Run and maintain Rust node instances',
+    description: 'Run and maintain Mina Rust Node instances',
     to: '/docs/node-operators/getting-started',
     icon: (
       <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
@@ -135,7 +135,7 @@ function ProjectBlurb() {
       <div className="container">
         <div className={styles.blurbContent}>
           <p>
-            The Rust Node is an open-source Rust implementation of the{' '}
+            The Mina Rust Node is an open-source Rust implementation of the{' '}
             <Link href="https://minaprotocol.com/" target="_blank" rel="noopener noreferrer">
               Mina Protocol
             </Link>

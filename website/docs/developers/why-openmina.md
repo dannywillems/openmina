@@ -2,11 +2,11 @@
 sidebar_position: 2
 title: Why the Rust Node?
 description:
-  Learn about the motivation and benefits of developing the Rust node as an
+  Learn about the motivation and benefits of developing the Mina Rust Node as an
   alternative Mina Protocol implementation
 ---
 
-# Why are we developing the Rust node and the Mina Web node?
+# Why are we developing the Mina Rust Node and the Mina Web node?
 
 ## Diversifying the Mina ecosystem
 

@@ -1,7 +1,7 @@
-# Rust Node Documentation Website
+# Mina Rust Node Documentation Website
 
-This directory contains the Docusaurus-based documentation website for the Rust
-node.
+This directory contains the Docusaurus-based documentation website for the Mina
+Rust Node.
 
 ## Quick Start
 
