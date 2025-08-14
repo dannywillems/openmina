@@ -3,7 +3,7 @@ sidebar_position: 2
 title: SNARK Work
 description:
   Understanding how SNARK proofs are generated, committed, and distributed in
-  the OpenMina network
+  the Rust node network
 ---
 
 # SNARK Work

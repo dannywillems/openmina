@@ -78,7 +78,7 @@ const config: Config = {
 
     // SEO improvements and metadata
     metadata: [
-      {name: 'keywords', content: 'OpenMina, Mina Protocol, Rust, blockchain, zero-knowledge proofs, zkProofs, cryptocurrency, decentralized'},
+      {name: 'keywords', content: 'Rust node, Mina Protocol, Rust, blockchain, zero-knowledge proofs, zkProofs, cryptocurrency, decentralized'},
       {name: 'description', content: 'The Rust Node is a Rust implementation of the Mina Protocol (originally written in OCaml) - a lightweight blockchain using zero-knowledge proofs. Learn how to run nodes, develop applications, and understand the protocol.'},
       {name: 'author', content: 'o1Labs'},
       {name: 'robots', content: 'index,follow'},

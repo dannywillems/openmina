@@ -140,6 +140,7 @@ using the Makefile target. This method requires building from source.
    ```
 
    Optional parameters:
+
    - `OPENMINA_LIBP2P_EXTERNAL_IP` - Sets external IP address
    - `OPENMINA_LIBP2P_PORT` - Sets libp2p communication port
    - `PRODUCER_KEY_FILENAME` - Path to producer key (default:

@@ -1,6 +1,7 @@
-# OpenMina Documentation Website
+# Rust Node Documentation Website
 
-This directory contains the Docusaurus-based documentation website for OpenMina.
+This directory contains the Docusaurus-based documentation website for the Rust
+node.
 
 ## Quick Start
 

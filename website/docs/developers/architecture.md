@@ -2,14 +2,14 @@
 sidebar_position: 1
 title: Architecture Overview
 description:
-  Understand OpenMina's Redux-style state machine architecture and design
+  Understand the Rust node's Redux-style state machine architecture and design
   principles
 slug: /developers/architecture
 ---
 
-# OpenMina Architecture
+# Rust Node Architecture
 
-OpenMina follows a Redux-style state machine architecture for predictable,
+The Rust node follows a Redux-style state machine architecture for predictable,
 debuggable behavior. This design ensures that all state changes are traceable
 and the system behavior is deterministic.
 
@@ -17,7 +17,7 @@ and the system behavior is deterministic.
 
 ### State Machine Pattern
 
-OpenMina implements Redux principles adapted for a blockchain node:
+The Rust node implements Redux principles adapted for a blockchain node:
 
 - **State** - Centralized, immutable data structure representing the entire node
   state
@@ -29,7 +29,7 @@ OpenMina implements Redux principles adapted for a blockchain node:
 
 ### Predictable State Management
 
-Every state change in OpenMina follows the same pattern:
+Every state change in the Rust node follows the same pattern:
 
 ```rust
 // 1. Action is dispatched
