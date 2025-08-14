@@ -3,7 +3,7 @@ name: Documentation
 on:
   push:
     branches:
-      - develop
+      - staging
     tags:
       - 'v*'
   pull_request:
@@ -19,7 +19,7 @@ concurrency:
 jobs:
   # Test documentation build
   build-docs:
-    if: github.ref != 'refs/heads/develop'
+    if: github.ref != 'refs/heads/staging'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -57,9 +57,9 @@ jobs:
           retention-days: 1
 
 
-  # Deploy to GitHub Pages (only on develop branch)
+  # Deploy to GitHub Pages (only on staging branch)
   deploy:
-    if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+    if: github.ref == 'refs/heads/staging' && github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
