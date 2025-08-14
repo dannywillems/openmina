@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'OpenMina Documentation',
-  tagline: 'Rust implementation of the Mina Protocol - lightweight blockchain using zero-knowledge proofs',
+  title: 'The Rust Node Documentation',
+  tagline: 'Rust implementation of the Mina Protocol (originally OCaml) - lightweight blockchain using zero-knowledge proofs',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -68,7 +68,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/openmina-social-card.svg',
+    image: 'img/rust-node-social-card.svg',
     // Default to dark mode
     colorMode: {
       defaultMode: 'dark',
@@ -79,23 +79,23 @@ const config: Config = {
     // SEO improvements and metadata
     metadata: [
       {name: 'keywords', content: 'OpenMina, Mina Protocol, Rust, blockchain, zero-knowledge proofs, zkProofs, cryptocurrency, decentralized'},
-      {name: 'description', content: 'OpenMina is a Rust implementation of the Mina Protocol - a lightweight blockchain using zero-knowledge proofs. Learn how to run nodes, develop applications, and understand the protocol.'},
+      {name: 'description', content: 'The Rust Node is a Rust implementation of the Mina Protocol (originally written in OCaml) - a lightweight blockchain using zero-knowledge proofs. Learn how to run nodes, develop applications, and understand the protocol.'},
       {name: 'author', content: 'o1Labs'},
       {name: 'robots', content: 'index,follow'},
       {name: 'googlebot', content: 'index,follow'},
       {property: 'og:type', content: 'website'},
-      {property: 'og:title', content: 'OpenMina Documentation'},
-      {property: 'og:description', content: 'OpenMina is a Rust implementation of the Mina Protocol - a lightweight blockchain using zero-knowledge proofs.'},
-      {property: 'og:image', content: 'https://o1-labs.github.io/openmina/img/openmina-social-card.svg'},
+      {property: 'og:title', content: 'The Rust Node Documentation'},
+      {property: 'og:description', content: 'The Rust Node is a Rust implementation of the Mina Protocol (originally written in OCaml) - a lightweight blockchain using zero-knowledge proofs.'},
+      {property: 'og:image', content: 'https://o1-labs.github.io/openmina/img/rust-node-social-card.svg'},
       {property: 'twitter:card', content: 'summary_large_image'},
-      {property: 'twitter:title', content: 'OpenMina Documentation'},
-      {property: 'twitter:description', content: 'OpenMina is a Rust implementation of the Mina Protocol - a lightweight blockchain using zero-knowledge proofs.'},
-      {property: 'twitter:image', content: 'https://o1-labs.github.io/openmina/img/openmina-social-card.svg'},
+      {property: 'twitter:title', content: 'The Rust Node Documentation'},
+      {property: 'twitter:description', content: 'The Rust Node is a Rust implementation of the Mina Protocol (originally written in OCaml) - a lightweight blockchain using zero-knowledge proofs.'},
+      {property: 'twitter:image', content: 'https://o1-labs.github.io/openmina/img/rust-node-social-card.svg'},
     ],
     navbar: {
       title: '',
       logo: {
-        alt: 'OpenMina Logo',
+        alt: 'The Rust Node Logo',
         src: 'img/logo.svg',
       },
       items: [
