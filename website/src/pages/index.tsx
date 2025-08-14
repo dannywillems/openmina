@@ -141,7 +141,11 @@ function ProjectBlurb() {
             </Link>
             , originally written in OCaml. Built in Rust for enhanced performance and reliability,
             it provides a full node implementation with advanced debugging capabilities and a modular
-            architecture for researchers and developers.
+            architecture for researchers and developers. It also includes the Mina Web Node,
+            a browser-based implementation that allows users to run a full Mina node
+            directly in their web browser without any installation. The Mina Web Node can even
+            participate in consensus and produce blocks by simply leaving a browser tab open,
+            earning rewards for successful block production.
           </p>
           <div className={styles.githubLink}>
             <Link
