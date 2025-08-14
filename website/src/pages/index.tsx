@@ -18,7 +18,7 @@ interface QuickNavItem {
 const quickNavItems: QuickNavItem[] = [
   {
     title: 'Node Runners',
-    description: 'Run and maintain OpenMina nodes',
+    description: 'Run and maintain The Rust Node instances',
     to: '/docs/node-runners/getting-started',
     icon: (
       <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
@@ -135,12 +135,13 @@ function ProjectBlurb() {
       <div className="container">
         <div className={styles.blurbContent}>
           <p>
-            OpenMina is an open-source implementation of the{' '}
+            The Rust Node is an open-source Rust implementation of the{' '}
             <Link href="https://minaprotocol.com/" target="_blank" rel="noopener noreferrer">
               Mina Protocol
             </Link>
-            , built in Rust for performance and reliability. It provides a full node implementation
-            with advanced debugging capabilities and a modular architecture for researchers and developers.
+            , originally written in OCaml. Built in Rust for enhanced performance and reliability,
+            it provides a full node implementation with advanced debugging capabilities and a modular
+            architecture for researchers and developers.
           </p>
           <div className={styles.githubLink}>
             <Link
